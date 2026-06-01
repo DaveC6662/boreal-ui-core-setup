@@ -22,10 +22,20 @@
 }
 
 .hero-logo {
-  stroke: white;
-  color: aliceblue;
+  width: 100px;
   height: 100px;
   margin: 10px auto;
+  background-color: var(--text-color);
+
+  -webkit-mask-image: url("/logo.svg");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  -webkit-mask-size: contain;
+
+  mask-image: url("/logo.svg");
+  mask-repeat: no-repeat;
+  mask-position: center;
+  mask-size: contain;
 }
 
 /* 

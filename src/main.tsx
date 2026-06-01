@@ -3,7 +3,15 @@ import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
 import "boreal-ui/core/globals.css";
-import { ThemeProvider } from "boreal-ui";
+import { ThemeProvider, setBorealStyleConfig } from "boreal-ui/core";
+
+setBorealStyleConfig({
+  defaultTheme: "primary",
+  defaultSize: "medium",
+  defaultRounding: "medium",
+  defaultShadow: "light",
+  defaultBorderWidth: "none",
+});
 
 // Mount the React app to the root element in index.html.
 createRoot(document.getElementById("root")!).render(

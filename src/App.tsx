@@ -16,7 +16,7 @@ function App() {
       <main className="hero">
         <section>
           {/* Starter logo */}
-          <img src="/favicon.ico" alt="Boreal UI logo" className="hero-logo" />
+          <div className="hero-logo" role="img" aria-label="Boreal UI logo" />
 
           {/* Intro text */}
           <Typography as="p" variant="body">
