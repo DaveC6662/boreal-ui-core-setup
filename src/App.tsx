@@ -1,9 +1,9 @@
 import "./App.css";
 
 // Boreal UI components imported directly from the core build.
-import Typography from "boreal-ui/core/Typography";
-import Button from "boreal-ui/core/Button";
-import { ThemeSelect } from "boreal-ui";
+import Typography from "@boreal-ui/core/Typography";
+import Button from "@boreal-ui/core/Button";
+import ThemeSelect from "@boreal-ui/core/ThemeSelect";
 
 function App() {
   return (

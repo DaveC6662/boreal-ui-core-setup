@@ -1,9 +1,10 @@
+import "@boreal-ui/core/globals.css";
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
-import "boreal-ui/core/globals.css";
-import { ThemeProvider, setBorealStyleConfig } from "boreal-ui/core";
+import ThemeProvider from "@boreal-ui/core/ThemeProvider";
+import { setBorealStyleConfig } from "@boreal-ui/core/styleConfig";
 
 setBorealStyleConfig({
   defaultTheme: "primary",
