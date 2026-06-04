@@ -43,7 +43,7 @@ npm run preview
 
 This starter already includes the required Boreal UI setup in `main.tsx`:
 
-- `boreal-ui/core/globals.css` is imported once at the root
+- `@boreal-ui/core/globals.css` is imported once at the root
 - `ThemeProvider` wraps the application
 - a custom scheme is registered using `customSchemes`
 - `initialSchemeName` sets the default active theme
@@ -51,8 +51,8 @@ This starter already includes the required Boreal UI setup in `main.tsx`:
 Example:
 
 ```tsx
-import "boreal-ui/core/globals.css";
-import { ThemeProvider } from "boreal-ui";
+import "@boreal-ui/core/globals.css";
+import { ThemeProvider } from "@boreal-ui/core";
 ```
 
 ## Project structure
@@ -91,8 +91,8 @@ You can also add multiple custom schemes and switch the default by changing `ini
 This starter uses direct imports from the Boreal UI core build:
 
 ```tsx
-import Typography from "boreal-ui/core/Typography";
-import Button from "boreal-ui/core/Button";
+import Typography from "@boreal-ui/core/Typography";
+import Button from "@boreal-ui/core/Button";
 ```
 
 You can continue building your app by adding more Boreal UI components into `App.tsx` or by creating your own pages and layouts.
@@ -103,7 +103,7 @@ Boreal UI internally handles its component styling through its global setup and 
 
 In this project:
 
-- `boreal-ui/core/globals.css` provides Boreal UI’s required base styling
+- `@boreal-ui/core/globals.css` provides Boreal UI’s required base styling
 - `index.css` is for your project-wide global styles
 - `App.css` is only used here to style the starter page layout
 
@@ -128,4 +128,3 @@ To explore more Boreal UI components and patterns, check the Boreal UI documenta
 This project is licensed under the **MIT License**.
 
 See the `LICENSE` file for full details.
-
