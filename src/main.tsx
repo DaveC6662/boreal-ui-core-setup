@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App.tsx";
 import ThemeProvider from "@boreal-ui/core/ThemeProvider";
 import { setBorealStyleConfig } from "@boreal-ui/core/styleConfig";
+import { ThemeProvider, setBorealStyleConfig } from "@boreal-ui/core";
 
 setBorealStyleConfig({
   defaultTheme: "primary",

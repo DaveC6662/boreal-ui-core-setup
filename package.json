@@ -21,8 +21,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@boreal-ui/cli": "^0.1.1",
-    "@boreal-ui/core": "^0.1.1",
+    "@boreal-ui/cli": "^0.1.2",
+    "@boreal-ui/core": "^0.1.2",
     "@boreal-ui/types": "^0.1.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
